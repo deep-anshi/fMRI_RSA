@@ -1,13 +1,16 @@
 # Representational Similarity Analysis
 
+Representational similarity analysis (RSA) is used to analyze the response similarity between evoked fMRI responses in selected regions-of-interest (ROIs). For each ROI a representational distance (or dissimilarity) matrix (RDM) is computed and graphically displayed containing distance measures (usually 1-correlation) between pairs of distributed activity patterns representing different experimental conditions. **(e.g. Kriegeskorte et al., 2008)**
+
 In this study we aim to evaluate whether certain categories of stressors are grouped together based on whether they elicit similar behavioral and BOLD stress responses. We also seek to compare category relationships under behavioral versus fMRI analysis.
 
 
 
 
 
-### Results 
-#### Behavioral RSA
+## Results 
+
+### Behavioral RSA
 RSA of behavioral responses reveals the least dissimilarity for the school and career pairing, and the greatest dissimilarity for the event and career pairing. As behavioral responses were measured on a self-reported 1-4 scale, this suggests that prompts in the school and career categories were more similarly ranked, whereas there was the greatest discrepancy in ratings across the career and event categories. In order, career and school responses were most similar, followed by social and event, school and social, career and social, and career and event. 
 
   <img src="RDM_Plots/Figure1.png" width="500">
@@ -17,8 +20,9 @@ RSA of behavioral responses reveals the least dissimilarity for the school and c
 We also examined whether the order of the prompts had any effect on the degree of response similarity between sets of categories. The dissimilarity matrix is largely the same for the individual orders, with the exception that the school and social category similarity is higher in the second order. This suggests that the order of the questions does not greatly affect reported response (i.e. numerical ranking).
 
 
-#### fMRI RSA
-**1. Amygdala**
+### fMRI RSA
+
+#### 1. Amygdala
 Representational dissimilarity matrices (RDMs) constructed from RSA of different brain regions were found to be varied. In both the right and left amygdala, responses to school prompts were highly correlated with responses to social prompts, and responses for school prompts were also correlated with responses for event prompts. This correlation was higher in the left amygdala in both cases.
 
 <img src="RDM_Plots/Figure2.1.png" width="400"><img src="RDM_Plots/Figure2.2.png" width="400">
